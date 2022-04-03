@@ -15,7 +15,7 @@
 C = [5, 43, 2, 0, 1]
 def LED_P_Q(C):
     coefficient = C[0]
-    return coefficient
+    return [coefficient]
 print(LED_P_Q(C))
 
     
