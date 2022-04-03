@@ -18,8 +18,6 @@ def MUL_Nk_N(n, A, k):
 
 
 
-print(MUL_Nk_N(5,[5,5,5,6,7], 7))
-
 
 
 
