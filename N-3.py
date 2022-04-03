@@ -13,15 +13,16 @@
 # Целое число, arr[..] - массив из его цифр.
 
 def ADD_1N_N(n, arr):
-    i = 0
-    while i != n + 1:
+    i = n - 1
+    while i != -1:
         arr[i] += 1
         if arr[i] == 10:
             arr[i] = 0
-            if i == n:
-                arr.append(1)
-            i += 1
+            if i == 0:
+                arr.insert(0, 1)
+                n += 1
+            i -= 1
         else:
-            i = n + 1
-    return arr
+            i = -1
+    return [n, arr]
 
