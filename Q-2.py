@@ -16,7 +16,7 @@
 # Выходные данные:
 # Если число целое, программа возвращает 1, в противном случае программа возвращает 0.
 
-def INT_Q_B(b1, n1, A1, n2, A2):
+def INT_Q_B(Q):
     def longSubtracting(l1, a1, l2, a2):
         a1 = a1[::-1]
         a2 = a2[::-1]
@@ -48,7 +48,12 @@ def INT_Q_B(b1, n1, A1, n2, A2):
                 elif a1[i] < a2[i]:
                     return 2
             return 1
-
+    
+    b1 = Q[0]
+    n1 = Q[1]
+    A1 = Q[2]
+    n2 = Q[3]
+    A2 = Q[4]
     if n1 == 1 and A1[0] == 0:
         return 1
     elif n1 < n2 or longComparing(n1, A1, n2, A2) == 2:
