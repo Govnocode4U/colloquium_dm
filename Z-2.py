@@ -11,10 +11,10 @@
 # В результате программа возвращает целое число(2 - положительное, 0 — равное нулю, 1 - отрицательное)
 
 def POZ_Z_D(b, n, A):
-    if(b == 0 and n > 0):
-        value = 2
-    elif(b == 1 and n > 0):
+    if(a[0] == 0):
+        value = 0
+    elif(b == 1):
         value = 1
     else:
-        value = 0
+        value = 2
     return value
