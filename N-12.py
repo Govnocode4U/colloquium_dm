@@ -19,7 +19,7 @@ num2_number_of_digits = 3
 
 def MOD_NN_N(num1, num2, num1_number_of_digits, num2_number_of_digits):
 """
-    count = DIV_NN_N(num1, num2, num1_number_of_digits, num2_number_of_digits) 
+    count = DIV_NN_N(num1, num2, num1_number_of_digits, num2_number_of_digits) ЗАДАНИЕ N-11
     находим частное от деления большего натурального числа на меньшее и присваиваем его в переменную
 
     return [SUB_NDN_N(count, mass1, mass2)]
