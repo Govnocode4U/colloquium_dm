@@ -43,6 +43,4 @@ def DIV_NN_Dk(n1, arr1, n2, arr2):
         n_temp = len(temp)
         num += 1
 
-    num_list.append(num)
-    num_list = MUL_Nk_N(1, num_list, k)
-    return num_list
+    return [num, k]
